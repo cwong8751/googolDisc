@@ -1,29 +1,40 @@
 header {
-    background-color: #f8f9fa;
+    background-color: #f4f4f4;
     padding: 20px;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
     color: #333;
     border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 36px;
-    color: #007bff;
+header form {
+    display: flex;
+    align-items: center;
+    margin: auto; /* Center the form */
+    width: 50%; /* Set a fixed width for the form */
 }
 
-header nav {
-    margin-top: 10px;
+header form input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    flex-grow: 1; /* Allow the input to grow */
 }
 
-header nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #007bff;
+header form button {
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
 }
 
-header nav a:hover {
-    text-decoration: underline;
+header form button:hover {
+    background-color: #0056b3;
 }
