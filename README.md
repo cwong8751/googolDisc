@@ -2,9 +2,11 @@
 googol disc.
 
 
+## who is googol disc
+googol disc is googol disc. 
+
 ## stack
 express, node js, react, mongo db
-
 
 ## environmental setup
 install node js
